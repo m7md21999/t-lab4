@@ -9,7 +9,7 @@ let Tasks:Task[] = [];
 
 // Get all tasks
 app.get('/api/alltasks',(req , res) => {
-    try {
+    try { 
         res.json({
             Tasks
         });
